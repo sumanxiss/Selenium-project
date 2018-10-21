@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="XeroTestScripts.AutomationScript"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="XeroTestScripts.AutomationScript">
+        <methods>
+          <include name="Forgot_Password"/>
+          <include name="FreeTrial_Privacy_Policy"/>
+          <include name="FreeTrial_OfferDetails"/>
+          <include name="logout_functionality"/>
+          <include name="Incorrect_Password"/>
+          <include name="Navigate_To_XERO"/>
+          <include name="Incorrect_Email"/>
+          <include name="FreeTrail_Inbox_Page"/>
+          <include name="FreeTrial_Accountant"/>
+          <include name="FreeTrial_PolicyCheckBox"/>
+        </methods>
+      </class> <!-- XeroTestScripts.AutomationScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
